@@ -36,8 +36,8 @@ export default function ResultPage() {
 
         {/* Explicações */}
         <div className='flex flex-col mt-6 gap-6'>
-          {sortedResults.map((item, idx) => (
-            <section className='space-y-3'>
+          {sortedResults.map((item) => (
+            <section key={item.id} className='space-y-3'>
               <hr className='border-gray-700 my-6' />
 
               <h3 className='text-xl font-semibold text-white'>
