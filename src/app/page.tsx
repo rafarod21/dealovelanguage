@@ -28,11 +28,6 @@ export default function Home() {
 
     setCounts(counts); // ✅ salva no contexto
 
-    const max = Math.max(...Object.values(counts));
-    const topLangs = Object.entries(counts)
-      .filter(([, value]) => value === max)
-      .map(([key]) => key);
-
     router.push('/result'); // ✅ sem counts na URL
   };
 
