@@ -1,0 +1,57 @@
+[
+  {
+    "id": "a",
+    "title": "Palavras de Afirmação",
+    "description": "Você se sente profundamente amado quando recebe elogios, palavras de encorajamento ou quando as pessoas expressam verbalmente seu apreço. Isso cria uma conexão emocional forte, já que para você, as palavras carregam um peso significativo.",
+    "difficulty": "se você não recebe essas palavras com frequência, pode começar a sentir que o relacionamento está esfriando, mesmo que a outra pessoa esteja demonstrando afeto de outras maneiras. Ficar sem palavras positivas pode te deixar inseguro.",
+    "tips": [
+      "Comunique ao seu parceiro o quanto palavras gentis são importantes para você.",
+      "Tente não depender unicamente dessas expressões verbais para se sentir amado; reconheça outros gestos de carinho também.",
+      "Ajude seu parceiro dizendo palavras de incentivo e gratidão quando ele fizer algo bom. Pequenos elogios podem transformar o dia dele!"
+    ]
+  },
+  {
+    "id": "b",
+    "title": "Tempo de Qualidade",
+    "description": "Você valoriza a presença e a atenção total de quem você ama. Para você, não há nada mais importante do que passar tempo de qualidade juntos, criando memórias e se conectando sem distrações.",
+    "difficulty": "quando o tempo junto é interrompido por distrações como o celular ou outras responsabilidades, você pode se sentir ignorado ou desvalorizado. Isso pode levar a frustrações se não for bem comunicado.",
+    "tips": [
+      "Explique ao seu parceiro que você se sente mais amado quando ele dedica tempo exclusivo a vocês dois.",
+      "Planeje atividades onde vocês possam se conectar sem interrupções, como uma caminhada ou jantar sem tecnologia.",
+      "Lembre-se de que seu parceiro pode mostrar amor de outras formas, então equilibre suas expectativas e reconheça os outros gestos também."
+    ]
+  },
+  {
+    "id": "c",
+    "title": "Atos de Serviço",
+    "description": "Para você, ações falam mais alto que palavras. Quando seu parceiro faz algo prático para te ajudar, como cuidar de uma tarefa ou facilitar sua vida, você se sente profundamente amado e valorizado.",
+    "difficulty": "se o outro não percebe suas necessidades práticas ou parece não se esforçar para ajudar, isso pode gerar ressentimento. Você pode acabar sentindo que o amor só é real quando há gestos concretos.",
+    "tips": [
+      "Converse com seu parceiro sobre como os pequenos gestos de ajuda fazem uma grande diferença para você.",
+      "Ao mesmo tempo, reconheça que outras formas de amor também são válidas e importantes, como palavras de carinho ou afeto físico.",
+      "Faça o outro se sentir bem retribuindo com ações que ele valoriza, mostrando que você também se importa."
+    ]
+  },
+  {
+    "id": "d",
+    "title": "Presentes",
+    "description": "Você se sente especial e amado quando recebe presentes que mostram consideração e que a pessoa pensou em você. Para você, os presentes são símbolos tangíveis de amor e afeto, algo que você pode guardar como lembrança.",
+    "difficulty": "se você não recebe presentes ou se sente esquecido em datas importantes, isso pode levar à frustração. Você pode acabar associando a falta de presentes à falta de amor, mesmo que o carinho seja demonstrado de outras maneiras.",
+    "tips": [
+      "Explique ao seu parceiro que os presentes são uma forma de você se sentir lembrado e apreciado.",
+      "Tente ver o amor nos outros gestos também, e não apenas em presentes físicos.",
+      "Ajude seu parceiro a se sentir bem surpreendendo-o com algo significativo para ele, mesmo que seja algo pequeno."
+    ]
+  },
+  {
+    "id": "e",
+    "title": "Toque Físico",
+    "description": "Para você, o toque físico é a forma mais poderosa de demonstrar amor. Abraços, beijos e carícias fazem você se sentir seguro, amado e conectado ao seu parceiro de uma maneira profunda.",
+    "difficulty": "a ausência de contato físico pode te fazer sentir distanciado emocionalmente, mesmo que o outro esteja demonstrando amor de outras formas. Isso pode criar um sentimento de solidão ou rejeição.",
+    "tips": [
+      "Deixe claro para o seu parceiro o quanto o toque físico é importante para você, seja um simples abraço ou segurar as mãos.",
+      "Reconheça que seu parceiro pode expressar amor de formas diferentes, e tente equilibrar suas expectativas.",
+      "Crie momentos de carinho, como abraços antes de dormir ou toques sutis durante o dia, para reforçar essa conexão."
+    ]
+  }
+]
