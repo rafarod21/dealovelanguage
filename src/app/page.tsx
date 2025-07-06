@@ -1,10 +1,11 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { useRouter } from 'next/navigation';
 import questions from '../../questions.json';
 import { useResult } from './context/ResultContext';
+import Image from 'next/image';
 
 type FormValues = {
   [key: string]: string;
@@ -18,9 +19,12 @@ export default function Home() {
   } = useForm<FormValues>();
   const router = useRouter();
   const { setCounts } = useResult();
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const onSubmit: SubmitHandler<FormValues> = (data) => {
     const counts = { a: 0, b: 0, c: 0, d: 0, e: 0 };
+
+    setIsSubmitting(true);
 
     Object.values(data).forEach((answer) => {
       if (answer in counts) counts[answer as keyof typeof counts]++;
@@ -33,6 +37,21 @@ export default function Home() {
 
   return (
     <main className='min-h-screen bg-gray-900 text-gray-100 p-4'>
+      {/* Logo + Título com imagem de fundo semi‑opaca */}
+      <div className='max-w-xl h-64 mx-auto mb-4 flex items-center justify-center relative'>
+        <Image
+          src='/images/logo.png'
+          alt='Logo do Love Languages'
+          fill
+          priority
+          className='object-contain opacity-20'
+          style={{ objectFit: 'contain' }}
+        />
+        <h1 className='relative z-10 text-4xl font-bold text-center'>
+          Qual é a sua Linguagem do Amor?
+        </h1>
+      </div>
+
       <form
         onSubmit={handleSubmit(onSubmit, () =>
           alert('Por favor, responda todas as perguntas.')
@@ -55,9 +74,9 @@ export default function Home() {
                       type='radio'
                       {...register(String(question.id), { required: true })}
                       value={key}
-                      className='form-radio h-4 w-4 text-red-400 bg-gray-700 border-gray-600'
+                      className='form-radio flex-none h-4 w-4 text-red-400 bg-gray-700 border-gray-600'
                     />
-                    <span className='text-gray-200'>{label}</span>
+                    <span className='flex-1 text-gray-200'>{label}</span>
                   </label>
                 )
               )}
@@ -72,9 +91,22 @@ export default function Home() {
 
         <button
           type='submit'
-          className='w-full py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-red-600 transition'
+          disabled={isSubmitting}
+          className={`w-full py-3 font-semibold rounded-lg transition flex items-center justify-center ${
+            isSubmitting
+              ? 'bg-gray-600 text-gray-400 cursor-not-allowed'
+              : 'bg-blue-600 text-white hover:bg-blue-500'
+          }`}
         >
-          Enviar respostas
+          {isSubmitting ? (
+            // Spinner CSS-only
+            <div
+              className='w-6 h-6 border-4 border-white border-t-transparent rounded-full animate-spin'
+              aria-label='Processando'
+            />
+          ) : (
+            'Processar respostas'
+          )}
         </button>
       </form>
     </main>

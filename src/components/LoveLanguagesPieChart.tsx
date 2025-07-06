@@ -30,7 +30,12 @@ const LoveLanguagesPieChart: React.FC<LoveLanguagesPieChartProps> = ({
             dataKey='value'
           >
             {data.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={entry.color} />
+              <Cell
+                key={`cell-${index}`}
+                fill={entry.color}
+                tabIndex={-1} /* evita foco */
+                className='focus:outline-none' /* remove outline se focado */
+              />
             ))}
           </Pie>
           <Tooltip
