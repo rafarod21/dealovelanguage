@@ -43,6 +43,7 @@ export default function Home() {
           src='/images/logo.png'
           alt='Logo do Love Languages'
           fill
+          sizes='(max-width: 768px) 100vw, 50vw'
           priority
           className='object-contain opacity-20'
           style={{ objectFit: 'contain' }}
@@ -66,10 +67,10 @@ export default function Home() {
             <span className='font-semibold'>
               {question.id}. {question.text}
             </span>
-            <div className='flex flex-col gap-2'>
+            <div className='flex flex-col'>
               {(Object.entries(question.options) as [string, string][]).map(
                 ([key, label]) => (
-                  <label key={key} className='flex items-center space-x-2'>
+                  <label key={key} className='flex items-center space-x-2 py-1'>
                     <input
                       type='radio'
                       {...register(String(question.id), { required: true })}

@@ -34,39 +34,6 @@
   },
   {
     "id": 4,
-    "text": "Como prefiro que alguém demonstre que se importa comigo?",
-    "options": {
-      "a": "Dizendo coisas doces e afirmativas",
-      "b": "Reservando tempo para estarmos juntos",
-      "c": "Ajudando com tarefas ou algo prático",
-      "d": "Comprando algo especial",
-      "e": "Dando abraços ou toques carinhosos"
-    }
-  },
-  {
-    "id": 5,
-    "text": "O que me deixa mais frustrado em um relacionamento?",
-    "options": {
-      "a": "Quando a pessoa não me elogia ou me valoriza verbalmente",
-      "b": "Quando não temos tempo suficiente para estar juntos",
-      "c": "Quando a pessoa não se oferece para ajudar quando preciso",
-      "d": "Quando ela esquece datas especiais e não dá presentes",
-      "e": "Quando não recebo demonstrações de afeto físico"
-    }
-  },
-  {
-    "id": 6,
-    "text": "Quando quero demonstrar amor, eu prefiro:",
-    "options": {
-      "a": "Falar o quanto a pessoa é especial para mim",
-      "b": "Passar o máximo de tempo possível junto",
-      "c": "Fazer algo prático para ajudar",
-      "d": "Comprar um presente que sei que a pessoa vai amar",
-      "e": "Abraçar, beijar ou tocar a pessoa de maneira carinhosa"
-    }
-  },
-  {
-    "id": 7,
     "text": "O que mais me faz sentir próximo de alguém?",
     "options": {
       "a": "Conversas profundas e significativas",
@@ -77,18 +44,7 @@
     }
   },
   {
-    "id": 8,
-    "text": "O que aprecio mais em datas comemorativas (aniversário, Natal, etc.)?",
-    "options": {
-      "a": "Palavras gentis e significativas",
-      "b": "Passar tempo de qualidade com quem amo",
-      "c": "Quando alguém faz algo para me ajudar",
-      "d": "Receber presentes que demonstram consideração",
-      "e": "Receber carinho físico"
-    }
-  },
-  {
-    "id": 9,
+    "id": 5,
     "text": "Em uma briga, o que me ajuda a me sentir melhor?",
     "options": {
       "a": "Um pedido de desculpas sincero",
@@ -99,18 +55,7 @@
     }
   },
   {
-    "id": 10,
-    "text": "O que mais me faz sentir especial em um relacionamento?",
-    "options": {
-      "a": "Quando a pessoa elogia minha aparência ou meu trabalho",
-      "b": "Quando passamos tempo juntos sem distrações",
-      "c": "Quando a pessoa faz algo para facilitar minha vida",
-      "d": "Quando ganho um presente sem motivo",
-      "e": "Quando a pessoa demonstra carinho com toques físicos"
-    }
-  },
-  {
-    "id": 11,
+    "id": 6,
     "text": "Como você prefere demonstrar gratidão em um relacionamento?",
     "options": {
       "a": "Dando elogios e expressando verbalmente minha gratidão",
@@ -121,7 +66,7 @@
     }
   },
   {
-    "id": 12,
+    "id": 7,
     "text": "Quando você está em um relacionamento à distância, o que você mais sente falta?",
     "options": {
       "a": "Ouvir palavras de carinho",
@@ -132,7 +77,7 @@
     }
   },
   {
-    "id": 13,
+    "id": 8,
     "text": "O que você mais valoriza em um gesto de carinho inesperado?",
     "options": {
       "a": "Uma mensagem de apoio ou um elogio",
@@ -143,7 +88,7 @@
     }
   },
   {
-    "id": 14,
+    "id": 9,
     "text": "O que te faz se sentir mais amado em um momento de celebração (como uma conquista)?",
     "options": {
       "a": "Receber palavras de reconhecimento",
@@ -154,7 +99,7 @@
     }
   },
   {
-    "id": 15,
+    "id": 10,
     "text": "Qual desses gestos faz você se sentir mais especial ao final de um dia cansativo?",
     "options": {
       "a": "Ouvir palavras de incentivo e carinho",
